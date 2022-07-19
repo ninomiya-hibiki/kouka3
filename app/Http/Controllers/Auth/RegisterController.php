@@ -45,7 +45,7 @@ class RegisterController extends Controller
             'phone' => ['required', 'string', 'max:50'],
         ]);
     }
- 
+
     /**
      * Create a new user instance after a valid registration.
      *
