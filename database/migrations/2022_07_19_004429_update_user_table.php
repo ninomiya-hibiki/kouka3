@@ -15,7 +15,7 @@ class UpdateUserTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
           $table->string('fullname');// 氏名カラムを追加
-          $table->string('phone'); // 電話番号カラムを追加
+          
         });
     }
  

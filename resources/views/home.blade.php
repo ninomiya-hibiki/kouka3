@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header"></div>
  
                 <div class="card-body">
                     @if (session('status'))
@@ -14,8 +14,7 @@
                         </div>
                     @endif
                     <h2>ようこそ、{{ Auth::user()->fullname }}さん！</h2>
-                    <h3>連絡先：<a href="tel:{{ Auth::user()->phone }}">{{ Auth::user()->phone }}</a></h3>
-                    
+                    <h3><a href="/jissyu14">ログイン管理画面へ</a></h3>
                 </div>
             </div>
         </div>
