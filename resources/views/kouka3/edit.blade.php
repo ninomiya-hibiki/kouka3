@@ -1,4 +1,4 @@
-@extends('layouts.jissyu')
+@extends('layouts.kouka3')
 
 @section('title', '更新')
 
@@ -16,7 +16,7 @@
     </ul>
 </div>
 @endif
-   <form action="/jissyu14/update" method="post">
+   <form action="/kouka3/update" method="post">
    <table>
       @csrf
       <input type="hidden" name="id" value="{{$item->id}}">

@@ -1,4 +1,4 @@
-@extends('layouts.jissyu')
+@extends('layouts.kouka3')
 
 @section('title', 'kouka3')
 

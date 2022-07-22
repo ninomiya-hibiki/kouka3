@@ -1,4 +1,4 @@
-@extends('layouts.jissyu')
+@extends('layouts.kouka3')
 
 @section('title', '削除')
 
@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-   <form action="/jissyu14/remove" method="post">
+   <form action="/kouka3/remove" method="post">
    <table>
       @csrf
       <input type="hidden" name="id" value="{{$item->id}}">

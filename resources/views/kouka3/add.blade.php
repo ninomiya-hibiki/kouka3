@@ -1,4 +1,4 @@
-@extends('layouts.jissyu')
+@extends('layouts.kouka3')
 
 @section('title', '新規')
 
@@ -16,7 +16,7 @@
     </ul>
 </div>
 @endif
-   <form action="/jissyu14/create" method="post">
+   <form action="/kouka3/create" method="post">
    <table>
       @csrf
       <tr><th>name: </th><td><input type="text" name="name" value="{{old('name')}}"></td></tr>
